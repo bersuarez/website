@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Master – Backbone Systems</title>
+  <meta name="description" content="Analytics platform for fintech data. Set up your data structure, visualize client and transactional data, and enrich your data for more insights." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <div id="navbar-placeholder"></div>
+
+  <!-- HERO -->
+  <section class="product-hero">
+    <div class="grid-bg" aria-hidden="true"></div>
+    <div class="product-hero-inner">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="../index.html">Home</a>
+        <span>/</span>
+        <a href="#">Banking Platform</a>
+        <span>/</span>
+        <span style="color:var(--text)">Data Master</span>
+      </nav>
+      <h1>Data Master</h1>
+      <p class="product-hero-desc">Set up your data structure such as product and customer types, custom documents, transactional channels and more in our proprietary data warehouse. Visualize all client and transactional data in a friendly manner and act upon that data.</p>
+      <div class="feature-tabs">
+        <a href="#custom-data" class="feat-tab active">Custom data structure</a>
+        <a href="#analytics" class="feat-tab">Analytics</a>
+        <a href="#enrichment" class="feat-tab">Data enrichment</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURE 1: Custom data structure -->
+  <section class="feature-section" id="custom-data">
+    <div class="feature-grid">
+      <div class="feature-text">
+        <span class="feature-label">Custom Data Structure</span>
+        <h2>Our system adapts to your data structure, not the other way around</h2>
+        <p class="feature-desc">Customize entities such as product types, transaction channels and more to give the right structure to your database. Set up custom fields, validations, and more.</p>
+        <div class="sub-features">
+          <div class="sub-feature">
+            <h4>Any data type</h4>
+            <p>Our data warehouse supports strings, dates, numeric, boolean, and custom catalogs.</p>
+          </div>
+          <div class="sub-feature">
+            <h4>Ingestion engine with validation rules</h4>
+            <p>Establish custom validation rules for your data ingestion to make sure your users can view only clean data.</p>
+          </div>
+        </div>
+      </div>
+      <div class="feature-visual">
+        <img src="../assets/images/data-master-2.png" alt="Data Schema Structure" style="width: 100%; height: auto; display: block;" />
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURE 2: Analytics -->
+  <section class="feature-section" id="analytics">
+    <div class="feature-grid reversed">
+      <div class="feature-text">
+        <span class="feature-label">Analytics</span>
+        <h2>Advanced analytics — no additional tools needed</h2>
+        <p class="feature-desc">Our data master is built to suit fintech data optimally and extract the most valuable insights from your raw data without needing third-party BI tools.</p>
+        <div class="sub-features">
+          <div class="sub-feature">
+            <h4>Custom dashboards</h4>
+            <p>Setup dashboards with counters, tables and charts for quick visualization of your most relevant data.</p>
+          </div>
+          <div class="sub-feature">
+            <h4>Advanced analytics tools</h4>
+            <p>Use our query builder to filter data, along with our sorting, and grouping functionality to view your data just the way you need it.</p>
+          </div>
+        </div>
+        <div class="stats-row">
+          <div class="stat-item"><div class="stat-value">500+</div><div class="stat-label">Metrics tracked</div></div>
+          <div class="stat-item"><div class="stat-value">Real-time</div><div class="stat-label">Data ingestion</div></div>
+          <div class="stat-item"><div class="stat-value">99.9%</div><div class="stat-label">Uptime SLA</div></div>
+        </div>
+      </div>
+      <div class="feature-visual">
+        <img src="../assets/images/data-master-1.png" alt="Analytics Dashboard" style="width: 100%; height: auto; display: block;" />
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURE 3: Data enrichment -->
+  <section class="feature-section" id="enrichment">
+    <div class="feature-grid">
+      <div class="feature-text">
+        <span class="feature-label">Data Enrichment</span>
+        <h2>Enrich your data for more insights</h2>
+        <p class="feature-desc">Leverage our database connections, data parsing and data calculations to get more insights from your raw data. Turn transactions into intelligence.</p>
+        <div class="sub-features">
+          <div class="sub-feature">
+            <h4>Data interpretation</h4>
+            <p>Get addresses from coordinates, merchant data from transactional data, or even a counterpart's financial institution from the account number.</p>
+          </div>
+          <div class="sub-feature">
+            <h4>Calculated data</h4>
+            <p>Get granular statistics on account behavior such as transaction volume by product, currency and more.</p>
+          </div>
+        </div>
+      </div>
+      <div class="feature-visual">
+        <img src="../assets/images/data-master-4.png" alt="Data Enrichment" style="width: 100%; height: auto; display: block;" />
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="grid-bg" aria-hidden="true"></div>
+    <div class="cta-glow" aria-hidden="true"></div>
+    <div class="container cta-inner">
+      <h2>Ready to get started?<br/>Let's talk!</h2>
+      <a href="../contact.html" class="btn-primary btn-lg">Contact us</a>
+    </div>
+  </section>
+
+  <div id="footer-placeholder"></div>
+  <script src="../components.js"></script>
+  <script>initComponents('..');</script>
+</body>
+</html>

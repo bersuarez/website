@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Core – Backbone Systems</title>
+  <meta name="description" content="Fintech product engine. Create new financial products with all their parameters and rules right in the UI." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <div id="navbar-placeholder"></div>
+
+  <section class="product-hero">
+    <div class="grid-bg" aria-hidden="true"></div>
+    <div class="product-hero-inner">
+      <nav class="breadcrumb"><a href="../index.html">Home</a><span>/</span><a href="#">Banking Platform</a><span>/</span><span style="color:var(--text)">Core</span></nav>
+      <h1>Core</h1>
+      <p class="product-hero-desc">Create new financial products with all their parameters and rules right in the UI. Simulate the products before launching. Connect your financial products to external systems such as payment methods and operational applications.</p>
+      <div class="feature-tabs">
+        <a href="#rule-engine" class="feat-tab active">Transactional rule engine</a>
+        <a href="#payment-connectors" class="feat-tab">Payment connectors</a>
+        <a href="#product-builder" class="feat-tab">Product builder</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-section" id="rule-engine">
+    <div class="feature-grid">
+      <div class="feature-text">
+        <span class="feature-label">Transactional Rule Engine</span>
+        <h2>Real-time transactional decisioning, no code required</h2>
+        <p class="feature-desc">Your teams will be able to set up any kind of transaction decisioning factors through a friendly UI and have it respond in real time.</p>
+        <div class="sub-features">
+          <div class="sub-feature"><h4>Dynamic and static controls</h4><p>Establish limits on a user level, account level or transaction level. Get as granular as necessary.</p></div>
+          <div class="sub-feature"><h4>Custom and complex business logic</h4><p>Configure rules and controls for transactions and financial products with as much complexity as needed. From credit card payments, to loans or crypto transactions.</p></div>
+        </div>
+      </div>
+      <div class="feature-visual">
+        <img src="../assets/images/core-1.png" alt="Rule Engine" style="width: 100%; height: auto; display: block;" />
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-section" id="payment-connectors">
+    <div class="feature-grid reversed">
+      <div class="feature-text">
+        <span class="feature-label">Payment Connectors</span>
+        <h2>Connect to payment networks with no code</h2>
+        <p class="feature-desc">Connect to payment methods via our predefined connectors. Just enter your credentials and you're ready to go.</p>
+        <div class="sub-features">
+          <div class="sub-feature"><h4>Prebuilt connectors</h4><p>Connect to card schemas and other payment methods like SPEI with no code.</p></div>
+          <div class="sub-feature"><h4>Custom connections</h4><p>Connect your own payment instruments and use them as if they were natively built.</p></div>
+        </div>
+      </div>
+      <div class="feature-visual">
+        <img src="../assets/images/core-2.png" alt="Connected Payment Methods" style="width: 100%; height: auto; display: block;" />
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-section" id="product-builder">
+    <div class="feature-grid">
+      <div class="feature-text">
+        <span class="feature-label">Product Builder</span>
+        <h2>Design and deploy any kind of financial product</h2>
+        <p class="feature-desc">Define all the parameters and working definition of your financial products from our interface and the engine will take care of any rule and accounting process.</p>
+        <div class="sub-features">
+          <div class="sub-feature"><h4>Define product from the UI</h4><p>Set up commissions, tax rules, interest, penalties, limits and so much more.</p></div>
+          <div class="sub-feature"><h4>Simulate performance</h4><p>Try out different product definitions and simulate its performance over time before going live.</p></div>
+        </div>
+      </div>
+      <div class="feature-visual">
+        <img src="../assets/images/core-3.png" alt="Product Configurator" style="width: 100%; height: auto; display: block;" />
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="grid-bg" aria-hidden="true"></div>
+    <div class="cta-glow" aria-hidden="true"></div>
+    <div class="container cta-inner">
+      <h2>Ready to get started?<br/>Let's talk!</h2>
+      <a href="../contact.html" class="btn-primary btn-lg">Contact us</a>
+    </div>
+  </section>
+
+  <div id="footer-placeholder"></div>
+  <script src="../components.js"></script>
+  <script>initComponents('..');</script>
+</body>
+</html>

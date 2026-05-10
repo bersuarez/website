@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delivery – Backbone Systems</title>
+  <meta name="description" content="We work closely with our customers to design financial products from idea to execution." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="navbar-placeholder"></div>
+
+  <!-- HERO -->
+  <section class="delivery-hero">
+    <div class="grid-bg" aria-hidden="true"></div>
+    <div class="container" style="position:relative;z-index:1;">
+      <p class="hero-eyebrow">HOW WE WORK</p>
+      <h1>Delivery</h1>
+      <p>We work closely with our customers to design financial products and institutions from idea to execution. We help customers with product specifications, technology architecture, testing and deployment. We continue working with our customers after launch to continue innovating.</p>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section class="timeline-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>From idea to launch</h2>
+        <p>A proven, structured delivery process that takes you from concept to live product with confidence.</p>
+      </div>
+
+      <div class="timeline-steps" id="timeline-steps">
+        <div class="timeline-step active" data-step="0">
+          <div class="ts-dot">1</div>
+          <div class="ts-label">Project Definition</div>
+        </div>
+        <div class="timeline-step" data-step="1">
+          <div class="ts-dot">2</div>
+          <div class="ts-label">Kickoff</div>
+        </div>
+        <div class="timeline-step" data-step="2">
+          <div class="ts-dot">3</div>
+          <div class="ts-label">Pre-production</div>
+        </div>
+        <div class="timeline-step" data-step="3">
+          <div class="ts-dot">4</div>
+          <div class="ts-label">Live Beta</div>
+        </div>
+        <div class="timeline-step" data-step="4">
+          <div class="ts-dot">5</div>
+          <div class="ts-label">Public Launch</div>
+        </div>
+      </div>
+
+      <!-- Step content panels -->
+      <div id="step-content">
+        <div class="timeline-content step-panel" data-panel="0">
+          <div class="tc-text">
+            <span class="feature-label">Phase 1</span>
+            <h3>Project Definition</h3>
+            <p>Our teams of specialists in all aspects of financial technology work together with our customers to understand the goals to be achieved by offering financial products and help design a strategy and project roadmap.</p>
+          </div>
+          <div class="tc-visual" style="background: transparent; border: none;">
+            <img src="assets/images/delivery-start.png" alt="Project Definition" style="width: 100%; height: auto; display: block;" />
+          </div>
+        </div>
+
+        <div class="timeline-content step-panel" data-panel="1" style="display:none">
+          <div class="tc-text">
+            <span class="feature-label">Phase 2</span>
+            <h3>Project Kickoff</h3>
+            <p>After the project has been defined, Backbone will work with our customers to establish timelines, key people, deliverables and responsibilities and get to work immediately.</p>
+          </div>
+          <div class="tc-visual">
+            <div class="fv-title">Kickoff Checklist</div>
+            <div class="mock-flow">
+              <div class="mock-flow-step"><div class="step-num">✓</div><span class="step-label">Assign dedicated project team</span><span class="mock-tag green step-status">Done</span></div>
+              <div class="mock-flow-step"><div class="step-num">✓</div><span class="step-label">Environment setup &amp; access</span><span class="mock-tag green step-status">Done</span></div>
+              <div class="mock-flow-step"><div class="step-num">✓</div><span class="step-label">Sprint planning session</span><span class="mock-tag green step-status">Done</span></div>
+              <div class="mock-flow-step"><div class="step-num">✓</div><span class="step-label">Communication channels live</span><span class="mock-tag green step-status">Done</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-content step-panel" data-panel="2" style="display:none">
+          <div class="tc-text">
+            <span class="feature-label">Phase 3</span>
+            <h3>Pre-production</h3>
+            <p>The team assigned to the customer will begin to run all internal tests and make all tweaks and changes necessary to get ready for a product launch. At this stage the first product should be complete.</p>
+          </div>
+          <div class="tc-visual" style="background: transparent; border: none;">
+            <img src="assets/images/delivery-build.png" alt="Pre-production" style="width: 100%; height: auto; display: block;" />
+          </div>
+        </div>
+
+        <div class="timeline-content step-panel" data-panel="3" style="display:none">
+          <div class="tc-text">
+            <span class="feature-label">Phase 4</span>
+            <h3>Live Beta</h3>
+            <p>The live Beta period will allow our customers to roll out to the product to a subset of users. This helps us understand how it's being used and what needs to be added, taken away or altered to be fully market ready.</p>
+          </div>
+          <div class="tc-visual">
+            <div class="fv-title">Beta Metrics</div>
+            <div class="mock-bar-container">
+              <div class="mock-bar-row"><span class="mock-bar-label">Beta users</span><div class="mock-bar-track"><div class="mock-bar-fill" style="width:15%"></div></div><span class="mock-bar-val">500</span></div>
+              <div class="mock-bar-row"><span class="mock-bar-label">Satisfaction</span><div class="mock-bar-track"><div class="mock-bar-fill" style="width:84%"></div></div><span class="mock-bar-val">84%</span></div>
+              <div class="mock-bar-row"><span class="mock-bar-label">Bugs found</span><div class="mock-bar-track"><div class="mock-bar-fill" style="width:20%"></div></div><span class="mock-bar-val">12</span></div>
+              <div class="mock-bar-row"><span class="mock-bar-label">Resolved</span><div class="mock-bar-track"><div class="mock-bar-fill" style="width:100%"></div></div><span class="mock-bar-val">12/12</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-content step-panel" data-panel="4" style="display:none">
+          <div class="tc-text">
+            <span class="feature-label">Phase 5</span>
+            <h3>Public Launch</h3>
+            <p>At this point our customers will go live with their new products and our teams will continue to work with them for the long term to create and deliver new innovations on an ongoing basis with minimum hassle.</p>
+          </div>
+          <div class="tc-visual" style="background: transparent; border: none;">
+            <img src="assets/images/delivery-grow.png" alt="Public Launch" style="width: 100%; height: auto; display: block;" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT TYPES -->
+  <section class="project-types">
+    <div class="container">
+      <div class="section-header">
+        <h2>2 types of projects</h2>
+        <p>We adapt to our client's required project type and business context.</p>
+      </div>
+      <div class="project-types-grid">
+        <div class="project-type-card">
+          <div class="ptc-tag">Greenfield</div>
+          <h3>Greenfield projects</h3>
+          <p>Spin off or create a new fintech arm for your business from scratch. Leverage existing assets or start anew with an entirely new company. Our team of experts will work hand in hand with our customer from idea to deployment and beyond.</p>
+        </div>
+        <div class="project-type-card">
+          <div class="ptc-tag">Modular</div>
+          <h3>Modular replatforming</h3>
+          <p>Upgrade your software stack as needed with our different modules, and use them as building blocks to create modern financial products without affecting existing customers. Start mirroring current systems and turn them off once it's ready.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="grid-bg" aria-hidden="true"></div>
+    <div class="cta-glow" aria-hidden="true"></div>
+    <div class="container cta-inner">
+      <h2>Ready to get started?<br/>Let's talk!</h2>
+      <a href="contact.html" class="btn-primary btn-lg">Contact us</a>
+    </div>
+  </section>
+
+  <div id="footer-placeholder"></div>
+  <script src="components.js"></script>
+  <script>
+    initComponents('.');
+
+    // Timeline interactivity
+    const steps = document.querySelectorAll('.timeline-step');
+    const panels = document.querySelectorAll('.step-panel');
+
+    steps.forEach(step => {
+      step.addEventListener('click', () => {
+        const idx = parseInt(step.dataset.step);
+        steps.forEach(s => s.classList.remove('active'));
+        step.classList.add('active');
+        panels.forEach(p => p.style.display = 'none');
+        document.querySelector(`[data-panel="${idx}"]`).style.display = 'grid';
+      });
+    });
+  </script>
+</body>
+</html>
