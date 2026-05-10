@@ -324,6 +324,13 @@ img { display: block; max-width: 100%; }
   align-items: center;
   justify-content: center;
 }
+.hero-img {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  filter: drop-shadow(0 30px 60px rgba(0,0,0,0.5));
+  transform: scale(1.1);
+}
 .stack-visual {
   display: flex;
   flex-direction: column-reverse;
@@ -739,6 +746,11 @@ img { display: block; max-width: 100%; }
     text-align: center;
   }
   .hero-visual { flex: none; width: 100%; }
+  .hero-img {
+    transform: scale(0.9);
+    margin: 40px auto 0;
+    max-width: 100%;
+  }
   .stack-visual { align-items: center; }
   .stack-layer { width: 100%; max-width: 300px; }
 
@@ -762,20 +774,23 @@ img { display: block; max-width: 100%; }
   .product-banner-visual {
     position: relative;
     width: 100%;
-    height: 280px;
+    height: 380px;
     right: auto;
     top: auto;
     bottom: auto;
+    margin-top: 30px;
   }
   .pbv-img-1 {
-    width: 95%;
-    right: -10%;
-    top: 10px;
+    width: 90%;
+    right: -15%;
+    top: 0;
   }
   .pbv-img-2 {
     width: 65%;
-    right: 30%;
-    top: 80px;
+    left: -5%;
+    right: auto;
+    top: auto;
+    bottom: 20px;
   }
 }
 
