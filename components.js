@@ -67,8 +67,8 @@ const FOOTER_HTML = `
       <div class="footer-col">
         <h4>Resources</h4>
         <ul>
-          <li><a href="#">Security policies</a></li>
-          <li><a href="#">Privacy</a></li>
+          <li><a href="../assets/documents/security-policies.pdf" target="_blank" rel="noopener">Security policies</a></li>
+          <li><a href="../privacy.html">Privacy</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -100,6 +100,7 @@ function initComponents(basePath = '..') {
     .replace(/\.\.\/delivery\.html/g, `${basePath}/delivery.html`)
     .replace(/\.\.\/contact\.html/g, `${basePath}/contact.html`)
     .replace(/\.\.\/index\.html/g, `${basePath}/index.html`)
+    .replace(/\.\.\/privacy\.html/g, `${basePath}/privacy.html`)
     .replace(/\.\.\/assets\//g, `${basePath}/assets/`);
 
   // Inject nav
